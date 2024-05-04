@@ -53,6 +53,10 @@
     width: 762px;
     margin-bottom: 47.5px;
 }
+.main__title_hr{
+    border: 1px solid rgb(47, 47, 47);
+    width: 420px;
+}
 .main__text {
     color: rgb(47, 47, 47);
     font-family: Inter;
@@ -105,7 +109,7 @@
     border-radius: 8px;
     background: rgb(250, 250, 250);
     width: 468px;
-    padding: 40px 130px 78px 40px;
+    padding: 40px 40px 78px 40px;
     position: relative;
 }
 .main__services_cart-item7{
@@ -128,6 +132,16 @@
     letter-spacing: 16%;
     text-align: left;
 }
+.main__services_cart-text{
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 40px;
+}
 .main__services_cart-price {
     border: 0;
     border-radius: 8px;
@@ -143,6 +157,9 @@
     position: absolute;
     bottom: -34px;
     /* не получается сделать что бы 6 блок наезжал вниз. Может вынести инпут за пределы флекса и сделать ему позиционку? */
+}
+.main__services_cart-price-open{
+    background: rgb(249, 109, 107);
 }
 .main__services_cart-price:hover{
     background: rgb(249, 109, 107);
@@ -508,3 +525,21 @@
     background-image: url(/img/linkMail.svg);
 }
 /*Почему картинки отоброжаются не на всю величину и при наведении две картинки смещаются, а дркгие нет*/
+
+.overlay{
+    position: fixed;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.689);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.hidden {
+    display: none;
+}
+/* .long__line{
+    color: rgb(47, 47, 47);
+    width: 87px;
+} */
