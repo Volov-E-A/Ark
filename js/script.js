@@ -14,13 +14,13 @@ function formSubmit(event){
 function eventCard (event){
     const card = event.currentTarget
     modal.classList.remove("hidden")    
-    const titleText = card.querySelector(".main__services_cart-title").textContent
+    const titleText = card.querySelector(".main__services_cart-title").innerHTML
     const buttonText = card.querySelector(".main__services_cart-price").textContent
     const pText = card.querySelector(".main__services_cart-text").textContent
     const modalTitle = modal.querySelector(".main__services_cart-title")
     const modalBtn = modal.querySelector(".main__services_cart-price")
     const modalText = modal.querySelector(".main__services_cart-text")
-    modalTitle.textContent = titleText
+    modalTitle.innerHTML = titleText
     modalBtn.textContent = buttonText
     modalText.textContent = pText
     modalBtn.classList.add("main__services_cart-price-open")

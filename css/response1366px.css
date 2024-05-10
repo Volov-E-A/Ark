@@ -1,0 +1,91 @@
+@media (max-width: 1400px) {
+    .wrapper {
+        width: 1192px;
+        padding: 72px;   
+    }
+    .main__subtitle{
+        margin-top: 126px;
+    }
+    .main__text_long{
+        width: 872px;
+    }
+    .main__services{
+        gap: 74px 40px;
+    }
+    .main__services_cart{
+        width: 576px;
+        padding-right: 160px;
+    }
+    .main__services_cart-consult{
+        padding-right: 0;
+        justify-content: flex-start;
+    }
+    .main__services_cart-item7{
+        margin-top: 0;
+    }
+    .main__services_cart:nth-child(1){ order: 1; }
+    .main__services_cart:nth-child(2){ order: 4; }
+    .main__services_cart:nth-child(3){ order: 3; }
+    .main__services_cart:nth-child(4){ order: 5; }
+    .main__services_cart:nth-child(5){ order: 6; }
+    .main__services_cart:nth-child(6){ order: 2; }
+    .main__services_cart:nth-child(7){ order: 7; }
+    .main__services_cart:nth-child(8){ order: 8; }
+    .main__services_input{
+        width: 496px;
+    }
+    .main__exploreWork{
+        margin-top: 638px;
+        width: 540px;
+    }
+    .main__exploreWork_numeration{
+        margin-top: 40px;
+    }
+    .main__discussion{
+        margin-top: 1932px;
+        width: 540px;
+    }
+    .main__aboutUs{
+        margin-top: 130px;
+        width: 540px;
+    }
+    .main__aboutUs_text-hr{
+        width: 320px;
+        margin-top: 40px;
+    }
+    .main__promise{
+        width: 1192px;
+        margin-top: 120px;
+    }
+    .main__qustionForm{
+        margin-top: 36px;
+    }
+    .main__qustionForm_text{
+        width: 768px;
+        height: auto;
+    }
+    .main__qustionForm_form-input{
+        width: 576px;
+    }
+    .main__qustionForm_container-top{
+        flex-direction: column;
+    }
+    .main__qustionForm_container-left{
+        width: 1192px;
+        gap: 28px 40px;
+        margin-top: 36px;
+    }
+    .main__qustionForm_container-right{
+        width: 1192px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main__qustionForm_container-left:nth-child(1){ order: 2;}
+    .main__qustionForm_container-right:nth-child(2){ order: 1;}
+    .footer{
+        min-width: 1400px;
+    }
+    .footer__wrapper{
+        width: 1192px;
+    }
+}
