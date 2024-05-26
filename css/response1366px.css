@@ -68,7 +68,7 @@
         width: 576px;
     }
     .main__qustionForm_container-top{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .main__qustionForm_container-left{
         width: 1192px;
@@ -80,10 +80,9 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    .main__qustionForm_container-left:nth-child(1){ order: 2;}
-    .main__qustionForm_container-right:nth-child(2){ order: 1;}
     .footer{
-        min-width: 1400px;
+        min-width: 1336px;
+        margin-top: 120px;
     }
     .footer__wrapper{
         width: 1192px;

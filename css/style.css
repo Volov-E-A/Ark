@@ -132,6 +132,21 @@
     letter-spacing: 16%;
     text-align: left;
 }
+.main__services_iconOpen{
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/iconCardOpen.svg);
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+}
+.icon_close{
+    transform: rotate(180deg);
+}
+
 .main__services_cart-text{
     color: rgb(47, 47, 47);
     font-family: Inter;
@@ -141,6 +156,9 @@
     letter-spacing: 0%;
     text-align: left;
     margin-top: 40px;
+    transition: 0.5s;
+    max-height: 800px;
+    overflow: hidden;
 }
 .main__services_cart-price {
     border: 0;
@@ -156,7 +174,9 @@
     text-align: left;    
     position: absolute;
     bottom: -34px;
-    /* не получается сделать что бы 6 блок наезжал вниз. Может вынести инпут за пределы флекса и сделать ему позиционку? */
+}
+.main__services_cart-price-hidden{
+    display: none;
 }
 .main__services_cart-price-open{
     background: rgb(249, 109, 107);
@@ -167,6 +187,7 @@
 .main__services_input{
     box-sizing: border-box;
     border: 4px solid rgb(235, 235, 235);
+    border-right: none;
     border-radius: 8px;
     background: rgb(250, 250, 250);
     width: 388px;
@@ -186,7 +207,7 @@
     height: 110px;
     border-radius: 0px 8px 8px 0px;
     /* background-image: url(/img/cerdButtonIcon.svg); */
-    background-color: rgb(112, 112, 112);
+    background-color: rgb(249, 109, 107);
     background-repeat: no-repeat;
     background-position: center;
     border: 0;
@@ -197,6 +218,7 @@
 .main__services_button:hover{    
     background: rgb(249, 109, 107);
 }
+
 .main__exploreWork {
     margin-top: 200px;
     width: 712px;
@@ -236,7 +258,7 @@
     line-height: 160%;
     letter-spacing: 0%;
     text-align: left;
-    padding-top: 24px;
+    margin-top: 24px;
 }
 .main__exploreWork_text-pink{
     color: rgb(249, 109, 107);
@@ -328,6 +350,10 @@
     width: 1448px;
     padding: 40px;
 }
+.main__promise_title{
+    overflow-y: hidden;
+    height: 50px;
+}
 .main__qustionForm{
     margin-top: 90px;
     display: flex;
@@ -358,7 +384,7 @@
 }
 .main__qustionForm_form-input {
     padding: 14px 40px;
-    color: rgba(47, 47, 47, 0.4);
+    color: black;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
@@ -369,10 +395,12 @@
     box-sizing: border-box;
     border: 1px solid rgba(30, 30, 30, 0.4);
     border-radius: 8px;
-
+}
+.main__qustionForm_form-input:placeholder{    
+    color: rgba(47, 47, 47, 0.4);
 }
 .main__qustionForm_form-textAria {
-    color: rgba(47, 47, 47, 0.4);
+    color: black;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
@@ -387,7 +415,9 @@
     border: 1px solid rgba(30, 30, 30, 0.4);
     border-radius: 8px;
     resize: none;
-
+}
+.main__qustionForm_form-textAria:placeholder{
+    color: rgba(47, 47, 47, 0.4);
 }
 .main__qustionForm_container-bottom{
     margin-top: 28px;
@@ -421,11 +451,6 @@
     text-align: left;
 }
 .main__qustionForm_form-a {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
     text-decoration: none;
     color: rgb(249, 109, 107);
@@ -521,15 +546,19 @@
 }
 .footer__linkTg:hover {
     background-image: url(/img/linkTG.svg);
+    color: rgb(250, 250, 250);
 }
 .footer__linkZ:hover {
     background-image: url(/img/linkZ.svg);
+    color: rgb(250, 250, 250);
 }
 .footer__linkSkyme:hover {
     background-image: url(/img/linkSkype.svg);
+    color: rgb(250, 250, 250);
 }
 .footer__linkMail:hover {
     background-image: url(/img/linkMail.svg);
+    color: rgb(250, 250, 250);
 }
 /*Почему картинки отоброжаются не на всю величину и при наведении две картинки смещаются, а дркгие нет*/
 
@@ -542,6 +571,9 @@
     justify-content: center;
     align-items: center;
     z-index: 999;
+}
+.hidden_text{
+    max-height: 0px;
 }
 .hidden {
     display: none;

@@ -1,0 +1,230 @@
+@media (max-width: 740px){
+    .wrapper{
+        width: 604px;
+    }
+    .header__logo{
+        width: 288px;
+        height: 26px;
+        background-image: url(/img/logoFrom740px.svg);
+    }
+    .header__link{
+        width: 36px;
+        height: 36px;
+    }
+    .main{
+        margin-top: 85px;
+    }
+    .main__title{
+        width: 288px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .main__title_hr{
+        width: 64px;
+    }
+    .main__text{
+        width: 288px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .main__button{
+        display: none;
+    }
+    .main__subtitle{
+        width: 288px;
+        height: 26px;
+        margin-top: 68px;
+        font-size: 20px;
+    }
+    .main__text_long{
+        margin-top: 16px;
+        height: 198px;
+    }
+    .main__services{
+        margin-top: 68px;
+        gap: 42px 28px
+    }
+    .main__services_cart{
+        width: 288px;
+        padding: 16px 55px 30px 16px;
+    }
+    .main__services_cart-consult{
+        padding: 0;
+    }
+    .main__services_cart-title{
+        font-size: 20px;
+    }
+    .main__services_cart-text{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .main__services_cart-price{
+        font-size: 16px;
+        padding: 0 16px;
+        bottom: -15px;
+    }
+    .main__services_cart:nth-child(2){ order: 3; }
+    .main__services_cart:nth-child(3){ order: 4; }
+
+    .main__services_input{
+        width: 232px;
+        font-size: 20px;
+        height: 70px;
+    }
+    .main__services_button{
+        width: 56px;
+        height: 70px;
+    }
+    .main__services_cart-price-hidden{
+        display: block;
+        margin-left: 16px;
+    }
+    .main__exploreWork{
+        width: 288px;
+        margin-top: 252px;
+    }
+    /* .main__exploreWork:nth-child(3){float: left; order: 2} */
+    .main__exploreWork_title{
+        font-size: 20px;
+    }
+    .main__exploreWork_numeration{
+        margin-top: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .main__exploreWork_text{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .main__discussion {
+        margin-top: 1255px; /*1063*/
+        width: 288px;
+    }
+    .main__discussion_title {
+        font-size: 20px;
+        line-height: 140%;
+    }
+    .main__discussion_text{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .main__discussion_button {
+        margin-top: 20px;
+        width: 288px;
+        height: 61px;
+        font-size: 16px;
+        background-image: url(/img/logoTGmini.svg);
+        background-position: 16px 15px;
+    }
+    .main__aboutUs{
+        width: 288px;
+        margin-top: 68px;
+    }
+    .main__aboutUs_title {
+        font-size: 20px;
+    }
+    .main__aboutUs_text {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .main__aboutUs_text-hr {
+        margin-top: 20px;
+        width: 288px;
+    }
+    .main__promise {
+        margin-top: 68px;
+        width: 604px;
+        height: 92px;
+        padding: 16px;
+        font-size: 16px;
+    }
+    .main__promise_title {
+        height: 19px;
+        margin-top: 16px;
+    }
+    .main__qustionForm {
+        margin-top: 34px;
+    }
+    .main__qustionForm_container-top {
+        width: 604px;
+    }
+    .main__qustionForm_container-left {
+        width: 604px;
+        margin-top: -145px;
+    }
+    .main__qustionForm_form-input {
+        font-size: 16px;
+        width: 288px;
+        padding: 16px 14px;
+    }
+    .main__qustionForm_form-textAria {
+        font-size: 16px;
+        padding: 14px 16px;
+        height: 298px;
+        width: 604px;
+    }
+    .main__qustionForm_container-right {
+        width: 288px;
+        flex-direction: column;
+        align-self: flex-end;        
+    }
+    .main__qustionForm_text {
+        width: 288px;
+        font-size: 12px;
+    }
+    .main__link {
+        width: 36px;
+        height: 36px;
+    }
+    .main__qustionForm_container-bottom {
+        margin-top: 32px;
+        gap: 28px;
+    }
+    .main__qustionForm_form-button {
+        font-size: 16px;
+        width: 288px;
+        height: 60px;
+    }
+    .main__qustionForm_form-text {
+        width: 288px;
+        font-size: 12px;
+        line-height: 160%;
+        padding-left: 20px;
+    }
+    .footer {
+        margin-top: 106px;
+        min-width: 739px;
+        height: 196px;
+        padding: 32px 0 40px;
+    }
+    .footer__wrapper {
+        width: 604px;
+    }
+    .footer__logo_link {
+        width: 200px;
+        height: 40px;
+        background-repeat: no-repeat;
+    }
+    .footer__rites {
+        font-size: 12px;
+    }
+    .footer__link {
+        height: 20px;
+        font-size: 12px;
+        padding-left: 36px;
+        background-position-y: -4px;
+    }
+    .footer__linkTg {
+        background-image: url(/img/iconTGminiFooter.svg);
+    }
+    .footer__linkZ {
+        background-image: url(/img/iconZminiFooter.svg);
+    }
+    .footer__linkSkyme {
+        background-image: url(/img/iconSkypeMiniFooter.svg);
+    }
+    .footer__linkMail {
+        background-image: url(/img/iconMailMiniFooter.svg);
+    }
+}

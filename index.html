@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="/fonts/font/stylesheet.css">
     <link rel="stylesheet" href="/css/response1366px.css">
+    <link rel="stylesheet" href="/css/response740px.css">
     <title>ArkWallet</title>
 </head>
 
@@ -47,6 +48,7 @@
             <section class="main__services">
                 <div class="main__services_cart">
                     <h3 class="main__services_cart-title">РЕГИСТРАЦИЯ КОМПАНИИ ЛЮБОГО МАСШТАБА</h3>
+                    <div class="main__services_iconOpen"></div>
                     <p class="main__services_cart-text hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Repellendus ut nemo dolorem sed natus magnam reprehenderit atque nostrum, ratione laboriosam
                         iure totam. Ratione sequi voluptatum totam facilis officia, deserunt asperiores!</p>
@@ -54,6 +56,7 @@
                 </div>
                 <div class="main__services_cart">
                     <h3 class="main__services_cart-title">БИЗНЕС &mdash; АККАУНТЫ ПО ВСЕМУ МИРУ </h3>
+                    <div class="main__services_iconOpen"></div>
                     <p class="main__services_cart-text hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Explicabo quam deleniti, doloribus labore consectetur, vero dolor accusantium molestiae rerum
                         debitis in. Nihil ipsum dolorum, nobis accusamus enim odit soluta velit.</p>
@@ -61,6 +64,7 @@
                 </div>
                 <div class="main__services_cart">
                     <h3 class="main__services_cart-title">ГОТОВЫЕ КОМПАНИИ ЗА РУБЕЖОМ</h3>
+                    <div class="main__services_iconOpen"></div>
                     <p class="main__services_cart-text hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Suscipit fuga ipsam sint ex veritatis consectetur pariatur adipisci, odio aut? Possimus aliquid
                         repudiandae architecto commodi repellat temporibus aperiam, sapiente ducimus officia!</p>
@@ -68,6 +72,7 @@
                 </div>
                 <div class="main__services_cart">
                     <h3 class="main__services_cart-title">ПОДКЛЮЧЕНИЕ МЕРЧАНТОВ</h3>
+                    <div class="main__services_iconOpen"></div>
                     <p class="main__services_cart-text hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                         Ut repellat, doloribus dolorum facere consectetur, officiis dolor molestiae assumenda error
                         excepturi qui fugiat omnis ab ea nemo atque! Corporis, rerum fuga.</p>
@@ -75,6 +80,7 @@
                 </div>
                 <div class="main__services_cart">
                     <h3 class="main__services_cart-title">МАССОВЫЕ ВЫПЛАТЫ</h3>
+                    <div class="main__services_iconOpen"></div>
                     <p class="main__services_cart-text hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Eum temporibus, accusamus non aspernatur praesentium ipsum, mollitia repudiandae exercitationem
                         obcaecati ipsam autem suscipit asperiores? Suscipit placeat maiores ex illum natus. Dolorum?</p>
@@ -85,6 +91,7 @@
                          <span class="dash">&mdash;&mdash;</span>
                         УСЛУГИ ДЛЯ ФИНТЕХ <span class="dash">&mdash;&mdash;</span>
                         КОМПАНИЙ</h3>
+                        <div class="main__services_iconOpen"></div>
                     <p class="main__services_cart-text hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Beatae, laudantium ea! Earum fugiat necessitatibus aliquid libero quod, in officia eos minima!
                         Perferendis in possimus reprehenderit eligendi, magni non. Praesentium, explicabo?</p>
@@ -92,6 +99,7 @@
                 </div>
                 <div class="main__services_cart main__services_cart-item7">
                     <h3 class="main__services_cart-title">БУХГАЛТЕРСКОЕ СОПРОВОЖДЕНИЕ</h3>
+                    <div class="main__services_iconOpen"></div>
                     <p class="main__services_cart-text hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Consequatur, sed perspiciatis? Tempora ab natus dolores, vitae eligendi deleniti cupiditate nam.
                         Soluta qui vel corporis, aliquam hic debitis adipisci sed eos?</p>
@@ -99,6 +107,7 @@
                 </div>
                 <div class="main__services_cart main__services_cart-consult">
                     <input class="main__services_input" type="text" placeholder="Консультация">
+                    <button class="main__services_cart-price main__services_cart-price-hidden">€150 &frasl; час</button>
                     <button class="main__services_button">&rarr;</button>
                 </div>
             </section>
@@ -123,8 +132,8 @@
                 <p class="main__exploreWork_text">Мы работаем так, чтобы сотрудничество с нашими партнерами оставалось
                     взаимовыгодным, продуктивным и долгосрочным. Именно поэтому большинство партнеров остаются с нами на
                     долгие годы.</p>
-            </section>
-            <!-- Почему-то растояние между блоками маленькое кажется. маржен и размер блоков совпажает с макетом-->
+            </section> <!-- Не могу сдалать на 740 px что бы третий элемент был слева -->
+            
             <section class="main__discussion">
                 <h4 class="main__discussion_title">ВАША ПРИВАТНОСТЬ ПРЕВЫШЕ ВСЕГО </h4>
                 <p class="main__discussion_text">Для обсуждения конфиденциальных вопросов мы используем защищенные
@@ -155,17 +164,23 @@
                 </p>
             </section>
             <article class="main__promise">
-                МЫ ГАРАНТИРУЕМ <br>//&nbsp; ЛУЧШЕЕ РЕШЕНИЕ ДЛЯ ВАШИХ ЗАДАЧ
+                МЫ ГАРАНТИРУЕМ
+                <div class="main__promise_title">
+                    <p>//&nbsp;ЛУЧШЕЕ РЕШЕНИЕ ДЛЯ ВАШИХ ЗАДАЧ</p>
+                    <p>//&nbsp;КОНКУРЕНТНЫЕ ЦЕНЫ НА НАШИ УСЛУГИ</p>
+                    <p>//&nbsp;ВЫСОКИЙ УРОВЕНЬ КОНФИДЕНЦИАЛЬНОСТИ</p>
+                    <p>//&nbsp;ОПЕРАТИВНЫЙ ОТВЕТ</p>                    
+                </div> 
             </article>
             <section class="main__qustionForm">
                 <form action="#" class="main__qustionForm_form">
                     <div class="main__qustionForm_container-top">
                         <div class="main__qustionForm_container-left">
-                            <input type="text" placeholder="Ваше имя *" class="main__qustionForm_form-input">
+                            <input type="text" placeholder="Ваше имя *" name="name" class="main__qustionForm_form-input">
 
-                            <input type="text" placeholder="Почта или Telegram *" class="main__qustionForm_form-input">
+                            <input type="text" placeholder="Почта или Telegram *" name="contact" class="main__qustionForm_form-input">
 
-                            <textarea class="main__qustionForm_form-textAria"
+                            <textarea class="main__qustionForm_form-textAria" name="question"
                                 placeholder="Опишите ваш задачу или задайте вопрос"></textarea>
                         </div>
                         <div class="main__qustionForm_container-right">
