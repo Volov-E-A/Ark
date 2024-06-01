@@ -1,4 +1,8 @@
 @media (max-width: 1400px) {
+    .backIMG {
+        background-image: url(/img/backIMG1366.svg);
+        background-position: center 16px;
+    }
     .wrapper {
         width: 1192px;
         padding: 72px;   

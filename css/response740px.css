@@ -1,6 +1,11 @@
 @media (max-width: 740px){
+    .backIMG {
+        background-image: url(/img/backIMG740.svg);
+        background-position: center 6px;
+    }
     .wrapper{
         width: 604px;
+        padding: 32px 0;
     }
     .header__logo{
         width: 288px;
@@ -56,7 +61,7 @@
     }
     .main__services_cart-text{
         font-size: 14px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
     .main__services_cart-price{
         font-size: 16px;
@@ -71,6 +76,9 @@
         font-size: 20px;
         height: 70px;
     }
+    .main__services_input::placeholder{
+        font-size: 20px;
+    }
     .main__services_button{
         width: 56px;
         height: 70px;
@@ -82,6 +90,7 @@
     .main__exploreWork{
         width: 288px;
         margin-top: 252px;
+        position: relative;
     }
     /* .main__exploreWork:nth-child(3){float: left; order: 2} */
     .main__exploreWork_title{
@@ -98,7 +107,7 @@
         font-size: 14px;
     }
     .main__discussion {
-        margin-top: 1255px; /*1063*/
+        margin-top: 1063px;
         width: 288px;
     }
     .main__discussion_title {
@@ -191,6 +200,12 @@
         font-size: 12px;
         line-height: 160%;
         padding-left: 20px;
+    }
+    .container-absolute{
+        position: absolute;
+        left: calc(-100% - 28px);
+        width: 288px;
+        bottom: 0;
     }
     .footer {
         margin-top: 106px;

@@ -1,3 +1,8 @@
+.backIMG {
+    background-image: url(/img/backIMG1920.svg);
+    background-repeat: no-repeat;
+    background-position: center 66px
+}
 .wrapper {
     margin: auto;
     width: 1448px;
@@ -142,6 +147,7 @@
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.5s;
+    display: none;
 }
 .icon_close{
     transform: rotate(180deg);
@@ -155,7 +161,7 @@
     line-height: 160%;
     letter-spacing: 0%;
     text-align: left;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     transition: 0.5s;
     max-height: 800px;
     overflow: hidden;
@@ -186,21 +192,23 @@
 }
 .main__services_input{
     box-sizing: border-box;
-    border: 4px solid rgb(235, 235, 235);
+    border: 0 solid rgb(235, 235, 235);
     border-right: none;
     border-radius: 8px;
     background: rgb(250, 250, 250);
     width: 388px;
     height: 110px;
+    text-align: left;
+    padding-left: 40px;
+    align-self: flex-end;
+}
+.main__services_input::placeholder{
     color: rgb(47, 47, 47);
     font-family: TT Firs Neue;
     font-size: 36px;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0%;
-    text-align: left;
-    padding-left: 40px;
-    align-self: flex-end;
 }
 .main__services_button {
     width: 80px;
@@ -584,4 +592,8 @@
 } */
 .dash{
     letter-spacing: 0;
+}
+
+button:disabled{
+    background-color: gray;
 }
